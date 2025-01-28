@@ -1,0 +1,19 @@
+@import url(../NavBar/Navbar.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ShopBord-main{
+  margin-top: 10vh;
+    width: 100%;
+    background:var(--bgb3);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 10px;
+    padding: 15px;
+    justify-content: center;
+}
+.list-card{
+background-color: bisque;
+}

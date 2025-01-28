@@ -1,0 +1,73 @@
+:root {
+    --bg1: rgb(153, 220, 71);
+    --bg2: whitesmoke;
+    --bgb3: #120024;
+    --bg5: rgba(0, 128, 0, 0.67);
+    --bg4:grey;
+    --btnc:coral;
+    --lcolor1: white;
+    --fs1: 1rem;
+    --fs2: 2rem;
+    --fst: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav_box {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    background-color: rgb(19 2 38 / 84%);
+    /* place-items: center; */
+    align-items: center;
+    align-content: space-between;
+    /* place-content: center; */
+    justify-content: space-between;
+    padding: 0 30px;
+    position: fixed;
+    z-index: 9999;
+
+}
+
+.my_shop {
+    display: flex;
+    color: var(--lcolor1);
+    font-size: var(--fs2);
+    font-family: var(--fst);
+    place-items: center;
+    cursor: pointer;
+
+}
+
+.my_shop>span {
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(243, 120, 71);
+
+}
+
+.cart {
+    display: flex;
+    cursor: pointer;
+}
+
+.cart>span>i {
+    font-size: var(--fs2);
+    color: var(--lcolor1);
+}
+
+.cart>.count {
+    padding: 2px;
+    color: var(--lcolor1);
+    background-color: red;
+    border-radius: 50%;
+    width: 15px;
+    font-size: 0.7rem;
+    height: 15px;
+    margin-left: 1.4rem;
+    place-content: right;
+    position: absolute;
+    display: flex;
+    place-content: center;
+}

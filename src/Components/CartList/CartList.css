@@ -1,0 +1,32 @@
+@import url(../NavBar/Navbar.css);
+
+.CartList-main {
+    margin-top: 10vh;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    background: var(--bgb3);
+    display: grid;
+    gap: 1vh;
+    grid-template-columns: repeat(auto-fit, 77vw);
+    /* gap: 10px; */
+    padding: 15px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.CartList-total {
+    color: #9b7bc0;
+    width: 100%;
+    /* border: 1px solid whitesmoke; */
+    height: 20vh;
+    display: flex;
+    /* background-color: var(--bg4); */
+    font-family: var(--fst);
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1vh;
+}

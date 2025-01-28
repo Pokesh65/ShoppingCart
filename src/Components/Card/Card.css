@@ -1,0 +1,93 @@
+@import url(../NavBar/Navbar.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    border: 1px solid whitesmoke;
+    width: 300px;
+    height: 400px;
+    /* padding: 23px; */
+    border-radius: 10px;
+    background-color: var(--bg2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    place-items: center;
+    display: grid;
+
+
+
+}
+
+.cards:active {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.cards:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+.image_box {}
+
+.image_box>img {
+    width: 15.625rem;
+    height: 14.063rem;
+    object-fit: scale-down;
+    border-radius: 10px;
+}
+
+.details {
+
+    margin-top: 10px;
+    /* place-content: center; */
+    width: auto;
+    border: 1px solid transparent;
+    margin-top: -2rem;
+    place-items: center;
+    line-height: 25px;
+    margin-top: 10px;
+
+}
+
+.details>p:nth-child(1) {
+    margin-top: -5vh;
+    color: black;
+    font-size: 1.4rem;
+    font-family: var(--fst);
+    font-weight: bold;
+    display: flex;
+    place-content: center;
+}
+
+.details>p:nth-child(2) {
+    font-size: 1rem;
+    font-weight: bold;
+    color: grey;
+}
+
+
+.details>p:nth-child(3){
+    color:var(--bg5);
+    font-size: medium;
+}
+
+.details>button {
+    background-color: var(--btnc);
+    width: 8rem;
+    height: 2rem;
+    border-radius: 16px;
+    color: white;
+    cursor:url();
+    cursor: pointer;
+}
+
+.details>button:active{
+    color: rgb(209, 234, 172);
+    background-color:green;
+}
+.details>button:visited{
+    background-color: red;
+}
