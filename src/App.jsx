@@ -48,8 +48,8 @@ function App() {
   
   return (
    <div>
-    <NavBar setShow={setShow} size={cart.length}/>
-    {Show?<ShopBord handleClick={handleClick} />:<CartList cart={cart} setcart={setcart} handlechange={handlechange} price={price} handlePrice={handlePrice} />}
+    <NavBar setShow={setShow} Show={Show} size={cart.length}/>
+    {Show?<ShopBord handleClick={handleClick} />:<CartList cart={cart} setcart={setcart} handlechange={handlechange} price={price} handlePrice={handlePrice} setShow={setShow} />}
    </div>
   )
 }

@@ -4,11 +4,26 @@
     --bgb3: #120024;
     --bg5: rgba(0, 128, 0, 0.67);
     --bg4:grey;
+    --btn-bg:linear-gradient(135deg,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%);
     --btnc:coral;
     --lcolor1: white;
     --fs1: 1rem;
     --fs2: 2rem;
     --fst: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --header-height: 3rem;
+    --font-semi: 600;
+    /*===== Colores =====*/
+    /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
+    /* HSL color mode */
+    --hue-color: 224;
+    --first-color: darkseagreen;
+    --second-color: hsl(var(--hue-color), 56%, 12%);
+    /*===== Fuente y tipografia =====*/
+    --body-font: "Poppins", sans-serif;
+    --big-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: 0.938rem;
+    --smaller-font-size: 0.75rem;
 }
 
 .nav_box {
@@ -70,4 +85,5 @@
     position: absolute;
     display: flex;
     place-content: center;
+    transition: all 2s;
 }
